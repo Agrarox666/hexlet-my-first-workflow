@@ -6,7 +6,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+<<<<<<< HEAD
     - name: checkout repo
       uses: actions/checkout@v3
     - name: Run a one-line script
       run: make say-hello
+=======
+      - name: Run a one-line script
+        run: say-hello
+>>>>>>> 63aaf2b (setup Makefile)
