@@ -9,4 +9,4 @@ jobs:
     - name: checkout repo
       uses: actions/checkout@v2
     - name: Run a one-line script
-      run: say-hello
+      run: make say-hello
