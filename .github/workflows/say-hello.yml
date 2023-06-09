@@ -3,7 +3,7 @@ name: CI
 on: push
 
 jobs:
-  build:
+  my-job:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
